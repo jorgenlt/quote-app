@@ -33,6 +33,7 @@ export default function Quote() {
 
     return (
         <div id="quote-wrapper">
+            <div style={{height: "100px"}}></div>
             <div className={isVisible ? 'focus-in' : 'focus-in2'}>
                 <div>
                     <div id="quote" onClick={() => copyQuote()}>

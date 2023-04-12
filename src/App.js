@@ -3,9 +3,9 @@ import Quote from './Quote.js'
 
 function App() {
   return (
-    <div className="container">
+    <>
       <Quote />
-    </div>
+    </>
   );
 }
 
