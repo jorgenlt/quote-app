@@ -26,7 +26,6 @@ export default function Quote() {
     }
 
     const copyQuote = () => {
-        console.log('copyQuote');
         toggleCopy();
         navigator.clipboard.writeText(`"${currentQuote.quote}" - ${currentQuote.author}`);
 
