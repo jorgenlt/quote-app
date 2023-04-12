@@ -28,7 +28,6 @@ export default function Quote() {
     const copyQuote = () => {
         toggleCopy();
         navigator.clipboard.writeText(`"${currentQuote.quote}" - ${currentQuote.author}`);
-
     }
 
     return (
