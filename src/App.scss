@@ -9,22 +9,17 @@ $black: #0B0A09;
   align-items: center;
   justify-content: center;
   // background: linear-gradient(0deg, #165a25 1.18%, #36ff2f 100%);
-  background-image: url(../public/bar.jpg), linear-gradient(0deg, #000000ea 25%, #530000e3 100%);
-  background-blend-mode: darken;
+  // background-image: url(../public/images/IMG_2035.jpg), linear-gradient(0deg, #0000007d 25%, #53000071 100%);
+  background-image: url(../public/images/IMG_2035.jpg);
+  filter: saturate(0.5);
+  background-color: rgb(116 32 32);
+  background-blend-mode: multiply;
   background-repeat: no-repeat;
-  background-position: center;
+  background-position: bottom -150px left 0px;
   background-size: cover;
   // background-color: rgba(217, 25, 25, 0.357);
   // filter: brightness(0.5) contrast(1.14) grayscale(0) hue-rotate(1deg) opacity(1) saturate(1.39);
   color: $white;
-}
-
-.title {
-  font-size: 15vw;
-  font-family: 'Inter';
-  font-weight: 900;
-  text-transform: uppercase;
-  color: rgb(70 0 0 / 33%);
 }
 
 #quote-wrapper {
@@ -84,11 +79,11 @@ $black: #0B0A09;
 
 // animations
 .focus-in {
-  animation: focus-in 1500ms ease-out;
+  animation: focus-in 900ms ease-out;
 }
 
 .focus-in2 {
-  animation: focus-in2 1500ms ease-out;
+  animation: focus-in2 900ms ease-out;
 }
 
 
