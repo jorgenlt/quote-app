@@ -11,7 +11,7 @@ $black: #0B0A09;
   // background: linear-gradient(0deg, #165a25 1.18%, #36ff2f 100%);
   // background-image: url(../public/images/IMG_2035.jpg), linear-gradient(0deg, #0000007d 25%, #53000071 100%);
   background-image: url(../public/images/bg.jpg);
-  background-color: rgb(40 14 14 / 64%);
+  background-color: rgb(0 0 0 / 70%);
   background-blend-mode: overlay;
   background-repeat: no-repeat;
   background-position: center;
@@ -41,7 +41,12 @@ $black: #0B0A09;
   cursor: pointer;
 
   &:active {
-    scale: 1.01;
+    outline: none;
+    transform: scale(1.01);
+  }
+
+  &:focus {
+    outline: none;
   }
   
   p {
@@ -78,7 +83,12 @@ $black: #0B0A09;
   right: 100px;
 
   &:active {
-    scale: 1.05;
+    outline: none;
+    transform: scale(1.05);
+  }
+
+  &:focus {
+    outline: none;
   }
 }
 

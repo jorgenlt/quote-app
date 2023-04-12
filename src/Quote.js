@@ -52,19 +52,24 @@ export default function Quote() {
                     </div>
                 </div>
             </div>
-            <div id="nextBtn" onClick={() => nextQuote()}>
-            <ul className="pre-loader">
-                <li>N</li>
-                <li>E</li>
-                <li>X</li>
-                <li>T</li>
-                <li className="space"></li>
-                <li>Q</li>
-                <li>U</li>
-                <li>O</li>
-                <li>T</li>
-                <li>E</li>
-            </ul>
+            <div 
+                id="nextBtn" 
+                onClick={() => nextQuote()}
+            >
+                <div>
+                    <ul className="pre-loader">
+                        <li>N</li>
+                        <li>E</li>
+                        <li>X</li>
+                        <li>T</li>
+                        <li className="space"></li>
+                        <li>Q</li>
+                        <li>U</li>
+                        <li>O</li>
+                        <li>T</li>
+                        <li>E</li>
+                    </ul>
+                </div>
             </div>
         </div>
         )
